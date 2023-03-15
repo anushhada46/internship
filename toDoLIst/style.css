@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+:hover {
+    transition: 0.3s ease-in-out;
+}
+
+.update-controller {
+    display: none;
+}
+
+.app {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px;
+    text-align: center;
+}
+
+.app h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.app h2 {
+    margin-bottom: 15px;
+}
+
+.to-do-input {
+    border: 1px solid #a1a1a1;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.to-do-input input {
+    padding: 5px 10px;
+    border: none;
+}
+
+.to-do-input input:focus {
+    outline: none;
+}
+
+.to-do-input button {
+    padding: 5px 10px;
+    border: none;
+}
+
+.input-controller {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-controller textarea {
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border: none;
+}
+
+.edit-controller {
+    width: 30%;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.saveBtn,
+.cancelBtn {
+    padding: 4px 10px;
+}
